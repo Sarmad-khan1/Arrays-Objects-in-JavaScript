@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background:linear-gradient(30deg, red, blue, green, yellow, pink, white,black,crimson)
+        }
+    </style>
+</head>
+<body>
+    <script>
+        let myvar=34;
+        // objects;
+
+        let details={
+            name: "Anonymous",
+            email: "********@gmail.com",
+            address: "Los Angeles",
+            id: "38302-09080898-1",
+            salaray:10,
+        }
+        console.log(details)
+
+
+
+        // arrays;
+
+
+        let information=[1, 3, 5, "Anonymous", undefined, true]
+        console.log(information)
+
+
+        let information1=[1, 3, 5, "Anonymous", undefined, true]
+        console.log(information[3])
+
+
+        // second method of arrays.
+
+        let file=new Array(123, 321, "anonymous", undefined, true)
+        console.log(file);
+
+
+        // to find length of ARRAY.
+
+        let information3=[1, 3, 5, "Anonymous", undefined, true]
+        console.log(information3.length)
+
+
+        // to sort the array----   .sort() arranges elements in ascending order.
+
+        let information4=[312, 33, 5, "Anonymous", undefined, true]
+        information4 = information4.sort();
+
+
+        // Adding elements in ARRAY.
+
+        information5=[333, 111, 9, "anonymous", true, undefined]
+        information.push("This is pushed")
+
+
+        
+    </script>
+</body>
+</html>
